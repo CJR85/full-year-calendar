@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background: #f1fbff;
+}
+
+.calendar {
+  padding: 20px 40px;
+}
+
+.months-container {
+  justify-content: center;
+  gap: 40px;
+}
+
+.calendar .months-container .month-container {
+  background: #fff;
+  padding: 20px;
+  min-width: 280px;
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
